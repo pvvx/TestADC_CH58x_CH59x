@@ -6,6 +6,11 @@ ADC test in USB2.0FS for CH58x and CH59x
 
 Модули CH583 (75 руб на али) и CH592 (~120 руб):
 
+![modules0](https://raw.githubusercontent.com/pvvx/TestADC_CH58x_CH59x/refs/heads/master/img/modules0.jpg)
+
+
+![modules1](https://raw.githubusercontent.com/pvvx/TestADC_CH58x_CH59x/refs/heads/master/img/modules1.jpg)
+
 
 CH59x имеет аппаратную функцию сканирования по списку входов, а в CH58x входы ADC переключаются только программно.
 
@@ -26,3 +31,15 @@ USB2.0FS у обоих в CDC дает поток чистых данных бо
 При дифференциальном измерении входной буфер не используется – не рекомендовано в PDF.
 
 В итоге из модуля на CH582F выходит самый дешевый 12 битный ADC в максимум USB2.0FS и приемлемыми характеристиками по линейности замеров и шумам. А на модуле с CH592F многоканальный ADC…
+
+---
+
+CH582F:
+
+![CH58x](https://raw.githubusercontent.com/pvvx/TestADC_CH58x_CH59x/refs/heads/master/img/wso_adcs_ch58x_12bits.png)
+
+---
+
+CH592F:
+
+![CH59x](https://raw.githubusercontent.com/pvvx/TestADC_CH58x_CH59x/refs/heads/master/img/wso_adcs_ch59x_12bits.png)
